@@ -10,9 +10,28 @@
     margin: 0 auto;
     padding: 20px;
     max-width: 1200px;
+    background-color: rgb(37, 46, 147);
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header-link{
+    color: white;
+}
+.header-btn{
+    color: white;
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
 }
