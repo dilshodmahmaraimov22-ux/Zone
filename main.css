@@ -24,14 +24,28 @@
     gap: 25px;
     align-items: center;
 }
-.header-link{
+
+.header-link {
     color: white;
 }
-.header-btn{
+
+.header-btn {
     color: white;
     width: 120px;
     height: 40px;
     background-color: blueviolet;
     border: none;
     border-radius: 5px;
+}
+.bar{
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+@media (max-width: 1200px){
+    .bars{
+        display: none;
+    }
 }
