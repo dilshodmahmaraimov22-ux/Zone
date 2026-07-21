@@ -6,12 +6,13 @@
     box-sizing: border-box;
 }
 
-.container{
+.container {
     margin: 0 auto;
     padding: 20px;
     max-width: 1200px;
 }
 
-.header-container{
+.header-container {
+    display: flex;
     justify-content: space-between;
 }
