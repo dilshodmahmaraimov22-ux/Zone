@@ -90,10 +90,14 @@
 @media (max-width: 1200px) {
     .hero-title {
         font-size: 30px;
+        width: 500px;
+        font-weight: 500;
+        margin-bottom: 15px;
     }
 
     .hero-text {
         font-size: 15px;
+        width: 400px;
     }
 
     .hero-btn{
@@ -101,7 +105,8 @@
         height: 40px;
     }
     .hero-img {
-        width: 500px;
-        height: 450px;
+        width: 550px;
+        height: 500px;
     }
 }
+
