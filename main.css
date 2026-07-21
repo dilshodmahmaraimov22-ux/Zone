@@ -87,6 +87,21 @@
     color: white;
 }
 
-@media (max-width: 1100px) {
-    .hero-img
+@media (max-width: 1200px) {
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .hero-text {
+        font-size: 15px;
+    }
+
+    .hero-btn{
+        width: 120px;
+        height: 40px;
+    }
+    .hero-img {
+        width: 500px;
+        height: 450px;
+    }
 }
