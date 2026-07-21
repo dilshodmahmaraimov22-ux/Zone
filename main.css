@@ -1,0 +1,17 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.header-container{
+    justify-content: space-between;
+}
