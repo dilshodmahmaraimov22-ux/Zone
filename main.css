@@ -165,8 +165,8 @@
     }
 
     .header-btn {
-    width: 100px;
-    height: 35px;
+        width: 100px;
+        height: 35px;
     }
 
     .hero-title {
@@ -196,9 +196,9 @@
 @media (max-width: 580px) {
 
     .header-item {
-    display: flex;
-    gap: 15px;
-    align-items: center;
+        display: flex;
+        gap: 15px;
+        align-items: center;
     }
 
     .header-link {
@@ -206,8 +206,8 @@
     }
 
     .header-btn {
-    width: 100px;
-    height: 35px;
+        width: 100px;
+        height: 35px;
     }
 
     .hero-title {
@@ -232,5 +232,49 @@
     .hero-img {
         width: 280px;
         height: 230px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .header-item {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .hero-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-title {
+        text-align: center;
+        font-size: 30px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+
+    .hero-text {
+        font-size: 12px;
+        text-align: center;
+        width: 500px;
+        line-height: 18px;
+    }
+
+    .hero-btn {
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(calc(-50% + 0px));
+    }
+
+    .hero-img {
+        width: 350px;
+        height: 300px;
     }
 }
