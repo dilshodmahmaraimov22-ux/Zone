@@ -498,3 +498,18 @@
         font-size: 10px;
     }
 }
+
+@media (max-width: 600px) {
+    .service-title{
+        font-size: 20px;
+    }
+    .service-text{
+        font-size: 12px;
+        width: 250px;
+        line-height: 15px;
+    }
+    .service-item {
+        width: 500px;
+        margin-left: -130px;
+    }
+}
