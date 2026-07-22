@@ -364,3 +364,24 @@
     letter-spacing: 0%;
     margin-left: 110px;
 }
+
+@media (max-width: 1180px){
+    .service-item{
+    width: 500px;
+    height: 350px;
+    background-color: #371a82;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 40px;
+    left: 50%;
+    transform: translateX(calc(-50% + 270px));
+    }
+
+    .service-img{
+    margin-left: 190px;
+}
+
+.service-link {
+    margin-left: 180px;
+}
+}
