@@ -470,30 +470,17 @@
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 750px) {
     .service-item {
-        width: 600px;
-        height: 250px;
-    }
-
-    .service-title2 {
-        font-size: 18px;
-        margin-top: 50px;
-    }
-
-    .service-text2 {
-        font-size: 10px;
-        margin-top: 50px;
-    }
-
-    .service-img {
-        width: 40px;
-        height: 40px;
-        margin-top: 0px;
-        margin-left: 280px;
+        width: 500px;
+        margin-left: -70px;
     }
 
     .service-link {
-        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    .service-img {
+        margin-left: 220px;
     }
 }
