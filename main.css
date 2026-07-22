@@ -251,22 +251,24 @@
     }
 
     .hero-title {
+        margin: auto;
         text-align: center;
         font-size: 30px;
-        width: 500px;
+        width: 400px;
         margin-bottom: 20px;
+        line-height: 40px;
     }
 
     .hero-text {
         font-size: 12px;
         text-align: center;
-        width: 500px;
+        width: 400px;
         line-height: 18px;
     }
 
     .hero-btn {
         width: 100px;
-        height: 25px;
+        height: 30px;
         font-size: 10px;
         position: absolute;
         left: 50%;
