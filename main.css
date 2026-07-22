@@ -421,3 +421,32 @@
     top: 160px;
     }
 }
+
+@media (max-width: 1100px){
+    .service-item{
+    width: 850px;
+    height: 220px;
+    left: 50%;
+    transform: translateX(calc(-50% + 450px));
+    margin-top: 10px;
+    }
+}
+@media (max-width: 950px){
+    .service-item{
+    width: 850px;
+    height: 220px;
+    left: 50%;
+    transform: translateX(calc(-50% + 400px));
+    margin-top: 10px;
+    }
+}
+
+@media (max-width: 850px){
+    .service-item{
+    width: 700px;
+    height: 220px;
+    left: 50%;
+    transform: translateX(calc(-50% + 400px));
+    margin-top: 10px;
+    }
+}
