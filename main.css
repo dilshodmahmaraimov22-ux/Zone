@@ -622,7 +622,7 @@
     .service-item {
         width: 400px;
         height: 250px;
-        margin-left: -150px;
+        margin-left: -180px;
     }
     .service-title {
         font-size: 20px;
@@ -655,6 +655,49 @@
 
     .service-link {
         margin-top: 25px;
+        font-size: 8px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 460px) {
+    .service-item {
+        width: 400px;
+        height: 220px;
+        margin-left: -200px;
+    }
+    .service-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .service-title2 {
+        font-size: 15px;
+    }
+
+    .service-text {
+        font-size: 12px;
+        width: 250px;
+        line-height: 12px;
+    }
+
+    .service-text2 {
+        font-size: 12px;
+        width: 250px;
+        line-height: 15px;
+        position: absolute;
+        top: 50px;
+    }
+
+    .service-img {
+        width: 40px;
+        height: 40px;
+        margin-top: 0px;
+        margin-left: 170px;
+    }
+
+    .service-link {
+        margin-top: -2px;
         font-size: 8px;
         width: 50px;
     }
