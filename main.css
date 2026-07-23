@@ -645,7 +645,7 @@
     .service-item {
         width: 400px;
         height: 250px;
-        margin-left: -150px;
+        margin-left: -180px;
     }
 
     .service-title {
@@ -1064,6 +1064,42 @@
     .project-btn {
         width: 100px;
         height: 35px;
-        margin-left: 130px;
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 500px) {
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-img {
+        width: 320px;
+        height: 270px;
+    }
+
+    .project-title {
+        font-size: 17px;
+        line-height: 20px;
+        width: 320px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .project-text {
+        font-size: 10px;
+        line-height: 18px;
+        width: 320px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .project-btn {
+        width: 80px;
+        height: 30px;
+        margin-left: 120px;
     }
 }
