@@ -604,6 +604,7 @@
         height: 250px;
         margin-left: -120px;
     }
+
     .service-title {
         font-size: 20px;
         margin-bottom: 8px;
@@ -646,6 +647,7 @@
         height: 250px;
         margin-left: -150px;
     }
+
     .service-title {
         font-size: 20px;
         margin-bottom: 8px;
@@ -688,6 +690,7 @@
         height: 250px;
         margin-left: -180px;
     }
+
     .service-title {
         font-size: 20px;
         margin-bottom: 8px;
@@ -730,6 +733,7 @@
         height: 220px;
         margin-left: -200px;
     }
+
     .service-title {
         font-size: 20px;
         margin-bottom: 8px;
@@ -773,6 +777,7 @@
         height: 210px;
         margin-left: -210px;
     }
+
     .service-title {
         font-size: 20px;
         margin-bottom: 8px;
@@ -816,6 +821,7 @@
         height: 210px;
         margin-left: -225px;
     }
+
     .service-title {
         font-size: 20px;
         margin-bottom: 8px;
@@ -851,4 +857,10 @@
         font-size: 8px;
         width: 50px;
     }
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
