@@ -882,3 +882,12 @@
     letter-spacing: 0%;
     color: #fff;
 }
+
+.project-btn{
+    width: 120px;
+    height: 35px;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(103, 78, 183);
+}
