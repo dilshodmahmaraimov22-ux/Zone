@@ -534,10 +534,45 @@
     }
 }
 
+@media (max-width: 700px) {
+    .service-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-item {
+        width: 550px;
+        margin-left: -85px;
+        width: 500px;
+    }
+
+    .service-title2 {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+
+    .service-text2 {
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
+    .service-img {
+        width: 40px;
+        height: 40px;
+        margin-top: 0px;
+        margin-left: 220px;
+    }
+
+    .service-link {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+}
+
 @media (max-width: 650px) {
     .service-item {
         width: 500px;
-        margin-left: -100px;
+        margin-left: -110px;
     }
 
     .service-title2 {
