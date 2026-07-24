@@ -1103,3 +1103,12 @@
         margin-left: 120px;
     }
 }
+
+.customer-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
