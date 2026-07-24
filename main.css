@@ -1117,6 +1117,8 @@
     line-height: 100%;
     letter-spacing: 0%;
     color: white;
+    margin-bottom: 40px;
+    width: 600px;
 }
 
 .customer-text {
@@ -1126,6 +1128,8 @@
     line-height: 26px;
     letter-spacing: 0%;
     color: white;
+    margin-bottom: 20px;
+    width: 560px;
 }
 
 .customer-btn{
