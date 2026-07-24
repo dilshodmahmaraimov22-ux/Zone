@@ -1285,6 +1285,7 @@
     line-height: 100%;
     letter-spacing: 0%;
     color: white;
+    text-align: center;
 }
 
 .team-text {
@@ -1293,6 +1294,14 @@
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;
-    text-align: center;
     color: white;
+    width: 500px;
+    text-align: center;
+}
+
+.team-img{
+    width: 90px;
+    height: 75px;
+    border: none;
+    border-radius: 100%;
 }
