@@ -1104,6 +1104,12 @@
     }
 }
 
+.customer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .customer-title {
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
