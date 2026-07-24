@@ -1240,3 +1240,40 @@
         margin-top: 20px;
     }
 }
+
+@media (max-width: 430px) {
+    .customer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .customer-title {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 28px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .customer-text {
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 15px;
+        width: 320px;
+        text-align: center;
+    }
+
+    .customer-btn {
+        width: 120px;
+        height: 35px;
+        margin-left: 100px;
+    }
+
+    .customer-img {
+        width: 250px;
+        height: 270px;
+        margin-top: 20px;
+    }
+}
