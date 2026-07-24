@@ -1278,6 +1278,10 @@
     }
 }
 
+.team-list{
+    display: flex;
+}
+
 .team-title {
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
