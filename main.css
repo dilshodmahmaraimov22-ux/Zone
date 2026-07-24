@@ -1325,6 +1325,7 @@
     font-size: 28px;
     line-height: 100%;
     letter-spacing: 0%;
+    margin-bottom: 10px;
 }
 
 .team-text2 {
@@ -1334,6 +1335,7 @@
     line-height: 100%;
     letter-spacing: 3%;
     color: white;
+    margin-bottom: 10px;
 }
 
 .team-img {
@@ -1348,7 +1350,7 @@
     background-color: white;
     color: #2563EB;
     border-radius: 20px;
-    width: 5px;
-    height: 20px;
+    width: 8px;
+    height: 17px;
     text-align: center;
 }
