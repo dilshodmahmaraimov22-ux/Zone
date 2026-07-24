@@ -894,7 +894,7 @@
     background-color: rgb(103, 78, 183);
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1200px) {
     .project-container {
         display: flex;
         flex-direction: column;
@@ -1119,5 +1119,14 @@
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0%;
+    color: white;
+}
+
+.customer-btn{
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(103, 78, 183);
     color: white;
 }
