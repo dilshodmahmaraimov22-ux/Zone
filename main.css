@@ -1278,8 +1278,20 @@
     }
 }
 
-.team-list{
+.team-list {
     display: flex;
+    gap: 30px;
+    margin-left: 60px;
+}
+
+.team-item {
+    text-align: center;
+    border: grey solid 1px;
+    width: 230px;
+    height: 230px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #271261;
 }
 
 .team-title {
@@ -1290,6 +1302,8 @@
     letter-spacing: 0%;
     color: white;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 .team-text {
@@ -1301,11 +1315,17 @@
     color: white;
     width: 500px;
     text-align: center;
+    margin-bottom: 80px;
 }
 
-.team-img{
+.team-item {
+    text-align: center;
+}
+
+.team-img {
     width: 90px;
     height: 75px;
     border: none;
     border-radius: 100%;
+    margin-bottom: 10px;
 }
