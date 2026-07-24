@@ -1287,8 +1287,8 @@
 .team-item {
     text-align: center;
     border: grey solid 1px;
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     padding: 20px;
     border-radius: 30px;
     background-color: #271261;
@@ -1318,8 +1318,21 @@
     margin-bottom: 80px;
 }
 
-.team-item {
-    text-align: center;
+.team-title2 {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.team-text2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
 }
 
 .team-img {
