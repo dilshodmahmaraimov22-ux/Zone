@@ -1333,6 +1333,7 @@
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 3%;
+    color: white;
 }
 
 .team-img {
@@ -1341,4 +1342,13 @@
     border: none;
     border-radius: 100%;
     margin-bottom: 10px;
+}
+
+.ilova{
+    background-color: white;
+    color: #2563EB;
+    border-radius: 20px;
+    width: 5px;
+    height: 20px;
+    text-align: center;
 }
