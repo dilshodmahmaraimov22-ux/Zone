@@ -1628,3 +1628,13 @@
         margin-bottom: 10px;
     }
 }
+
+.reg-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
