@@ -1651,11 +1651,27 @@
     color: #fff;
     margin-bottom: 30px;
 }
-
+.reg-item{
+    position: relative;
+}
 .reg-input{
     width: 750px;
     height: 50px;
     padding: 20px;
     border-radius: 30px;
     margin-left: 210px;
+    border: none;
+}
+
+.reg-btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(calc(-50% + 300px));
+    top: 5px;
+    color: #fff;
+    background-color: #2563EB;
 }
